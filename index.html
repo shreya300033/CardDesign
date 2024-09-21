@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Card Design</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+      }
+      body {
+        background-color: grey;
+      }
+
+      .card {
+        background-color: white;
+        width: 300px;
+        height: 480px;
+        padding: 10px;
+        margin: 30px;
+        border: 2px solid rgb(193, 189, 189);
+        border-radius: 10px;
+      }
+      .image img {
+        padding: 0px;
+        border-radius: 15px;
+      }
+      .main {
+        padding: 5px;
+      }
+      .capsules {
+        padding: 5px;
+        margin-top: 13px;
+      }
+      .capsules span {
+        border: 2px solid rgb(180, 178, 178);
+        padding: 4px;
+        margin: 5px;
+        font-size: 15px;
+        border-radius: 10px;
+      }
+      div p {
+        padding: 4px;
+        margin: 4px;
+      }
+      div h1 {
+        padding: 3px;
+      }
+      .button {
+        text-align: center;
+        padding: 5px;
+        margin: 5px;
+      }
+      .button button {
+        border: 2px solid rgb(183, 212, 231);
+        padding: 5px;
+        border-radius: 10px;
+        background-color: rgb(204, 220, 230);
+        color: rgb(55, 79, 214);
+        font-size: 14px;
+        font-family: serif;
+        cursor: pointer;
+      }
+      .button button:hover {
+        color: rgb(26, 26, 106);
+        background-color: rgb(236, 236, 243);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="image">
+        <img
+          src="https://cdn.pixabay.com/photo/2020/08/11/03/08/boat-5479122_640.jpg"
+          alt="Boat"
+          width="300"
+          height="200"
+        />
+      </div>
+      <div class="capsules">
+        <span>Nature</span>
+        <span>Lake</span>
+      </div>
+      <div class="main">
+        <h1>Boating</h1>
+        <p>
+          Boating is the recreational or competitive activity of traveling on
+          water using various boats, offering relaxation, exploration, and
+          adventure through activities like fishing, water sports, and enjoying
+          nature.
+        </p>
+      </div>
+      <div class="button">
+        <button>Read More</button>
+      </div>
+    </div>
+  </body>
+</html>
